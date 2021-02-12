@@ -3,7 +3,7 @@ import os
 start = time.time()
 end = time.time()
 try:
-  duration = float(os.environ\[“DURATION”])
+  duration = float(os.environ[“DURATION”])
 except KeyError:
   duration = 600
 i = 1

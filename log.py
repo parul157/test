@@ -3,7 +3,7 @@ import os
 start = time.time()
 end = time.time()
 
-duration = 20
+duration = 300
 i = 1
 while(i <= duration):
   time.sleep(0.5)

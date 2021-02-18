@@ -25,7 +25,7 @@ duration = 20
 i = 1
 while end - start < duration:
   print(f"Log {i}")
-  sys.stdout.flush()
+#   sys.stdout.flush()
   i += 1
   time.sleep(0.5)
   end = time.time()

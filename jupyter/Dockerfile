@@ -1,5 +1,5 @@
 # Base image with CUDA support
-FROM nvidia/cuda:latest
+FROM ${IMAGE_NAME}:12.1.1-runtime-ubuntu20.04 as base
 
 # Install Python and necessary dependencies
 RUN apt-get update && apt-get install -y python3 python3-pip
